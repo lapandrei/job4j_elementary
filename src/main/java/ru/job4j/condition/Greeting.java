@@ -4,9 +4,10 @@ public class Greeting {
     public static void main(String[] args) {
         String idea = "I like Java!";
         System.out.println(idea);
-        System.out.println(idea + " But I am newbie.");
+        idea += " But I am newbie.";
+        System.out.println(idea);
         int year = 2021;
-        idea = idea + year;
+        idea += year;
         System.out.println(idea);
     }
 }
