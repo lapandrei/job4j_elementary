@@ -8,6 +8,6 @@ public class Max {
     public static void main(String[] args) {
         int left = 20;
         int right = 20;
-        System.out.println("Из чисел " + left + " и " + right + ", больше " + Max.max(left, right));
+        System.out.println("Из чисел " + left + " и " + right + ", больше  " + Max.max(left, right));
     }
 }
