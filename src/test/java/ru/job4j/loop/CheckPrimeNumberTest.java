@@ -13,7 +13,7 @@ public class CheckPrimeNumberTest {
 
     @Test
     public void when4() {
-        int number = 4;
+        int number = 12;
         boolean result = CheckPrimeNumber.check(number);
         Assert.assertFalse(result);
     }
