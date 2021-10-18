@@ -30,6 +30,7 @@ public class FindLoopTest {
         int el = 4;
         int result = FindLoop.indexOf(data, el);
         int expected = -1;
+
         Assert.assertEquals(expected, result);
     }
 }
