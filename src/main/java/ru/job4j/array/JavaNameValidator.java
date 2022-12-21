@@ -9,8 +9,7 @@ public class JavaNameValidator {
                 if (isSpecialSymbol(code) || isLowerLatinLetter(code)
                         || isUpperLatinLetter(code) || Character.isDigit(code)) {
                     rsl = true;
-                }
-                else {
+                } else {
                     rsl = false;
                     break;
                 }
